@@ -1,0 +1,22 @@
+.footer {
+  background-color: var(--secondary-background-light-color);
+  height: 64px;
+}
+
+.footer-wrap {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: transform 0.3s ease;
+  }
+}

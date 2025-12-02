@@ -1,0 +1,38 @@
+:root {
+  --header-color: #FFFFFF;
+  --main-light-color: #F5F5F5;
+  --secondary-light-color: #DCDCDC;
+  --additional-light-color: #F3BF99;
+  --main-light-background-color: #1A1B21;
+  --secondary-background-light-color: #161619;
+
+  --main-dark-color: #2B283A;
+  --secondary-dark-color: #4A4E74;
+  --additional-dark-color: #F47D27;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+a, a:active {
+  color: var(--main-light-color);
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.wrap {
+  margin: 0 auto;
+  max-width: 768px;
+  background-color: var(--main-light-background-color);
+}

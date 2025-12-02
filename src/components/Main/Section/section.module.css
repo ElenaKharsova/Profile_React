@@ -1,0 +1,12 @@
+.section {
+  margin-bottom: 25px;
+}
+
+.title {
+  font-size: 1em;  
+  color: var(--main-light-color);    
+}
+
+.paragraph {
+  color: var(--secondary-light-color);    
+}
