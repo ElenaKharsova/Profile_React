@@ -4,3 +4,40 @@
   border: solid 1px black;
   border-radius: 6px;
 }
+
+.link-wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-linkedIn {
+  background-color: #5093E2;
+  color: var(--header-color);
+
+  & svg {
+  fill: white;
+  }
+}
+
+.btn-mail {
+  background-color: var(--header-color);
+
+  & svg {
+    fill: #1E1F26;
+  }
+
+  & a, a:active {
+    color: #1E1F26;
+  }
+}
+
+.btn-linkedIn:hover,
+.btn-mail:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}

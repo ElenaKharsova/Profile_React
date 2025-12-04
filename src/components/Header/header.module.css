@@ -16,17 +16,18 @@
 
 .header {
   color: var(--header-color);
-  font-size: 25px;
+  font-size: 2rem;
 }
 
 .title {
   color: var(--additional-light-color);
-  font-size: 0.5rem;
+  font-size: 1.2rem;
 }
 
 .paragraph {
   color: var(--secondary-light-color);
   margin-bottom: 15px;
+  font-size: 1rem;
 }
 
 .header__buttons-wrap {
