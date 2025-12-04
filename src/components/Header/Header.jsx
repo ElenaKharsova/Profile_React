@@ -1,4 +1,5 @@
 import Button from './Button/Button';
+import photo from '../../assets/img/photo.jpg';
 import styles from './header.module.css';
 
 export default function Header(){
@@ -12,7 +13,7 @@ export default function Header(){
   return(
     <header className={`${styles['header-wrap']}`}>
         <div className="img-wrap">
-          <img src="src/assets/img/photo.jpg" alt='photo' className={styles.photo}/>
+          <img src={photo} alt='photo' className={styles.photo}/>
         </div>
         <h1 className={styles.header}>Elena Kharsova</h1>
         <h2 className={styles.title}>Frontend Developer</h2>
